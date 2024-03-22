@@ -68,4 +68,5 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
 
     implementation(libs.coil.kt.coil.compose)
+    //implementation(libs.androidx.compose.foundation)
 }

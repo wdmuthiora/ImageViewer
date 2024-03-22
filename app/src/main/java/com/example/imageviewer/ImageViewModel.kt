@@ -6,10 +6,10 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 
 class ImageViewModel:ViewModel() {
-    var images by mutableStateOf(emptyList<Image>())
+    var gridImageItems by mutableStateOf(emptyList<ImageItem>())
         private set
 
-    fun updateImages(images: List<Image>){
-        this.images = images
+    fun updateImages(gridImageItems: List<ImageItem>){
+        this.gridImageItems = gridImageItems
     }
 }
